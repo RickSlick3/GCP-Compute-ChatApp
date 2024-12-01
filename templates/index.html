@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info Form</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+        project-id="cloudcomputingproj6"
+        agent-id="c31f349f-e0d0-4cec-8bf0-0ceb3ef9e89d"
+        language-code="en"
+        max-query-length="-1">
+        <df-messenger-chat
+            chat-title="UC Chat Bot">
+        </df-messenger-chat>
+    </df-messenger>
+    <style>
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Roboto;
+            --df-messenger-chat-background: #FBEBE9;
+            --df-messenger-message-user-background: #F4C7C3;
+            --df-messenger-message-bot-background: #FFFFFF;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            width: 600px;
+        }
+    </style>
+</body>
+</html>
